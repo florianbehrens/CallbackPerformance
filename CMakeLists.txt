@@ -15,4 +15,5 @@ add_executable(
 target_link_libraries(
     ${PROJECT_NAME}
     ${Boost_SIGNALS_LIBRARY}
+    ${Boost_SIGNALS2_LIBRARY}
 )
